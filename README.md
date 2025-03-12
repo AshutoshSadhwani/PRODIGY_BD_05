@@ -11,11 +11,11 @@ The Hotel Booking Application is a backend service built using Spring Boot that 
 
 ### 2. Hotel Room Listings
 - Owners can **create, update, and delete** their hotel room listings.
-- Each listing includes details like price, amenities, and availability.
+- Each listing includes details like price and availability.
 
 ### 3. Search and Filter
 - Users can search for available hotel rooms based on **check-in and check-out dates**.
-- Additional filters include price range, location, and amenities.
+- Additional filters include price , location.
 
 ### 4. Room Booking
 - Users can reserve available hotel rooms.
@@ -39,21 +39,4 @@ The Hotel Booking Application is a backend service built using Spring Boot that 
   - **User**: Can search and book rooms
 
 
-## API Endpoints
-
-### Authentication
-- **POST** `/auth/register` – Register a new user
-- **POST** `/auth/login` – Authenticate and receive JWT token
-
-### Hotel Listings (Owner Access)
-- **POST** `/hotels` – Create a new hotel listing
-- **PUT** `/hotels/{id}` – Update hotel details
-- **DELETE** `/hotels/{id}` – Delete a hotel listing
-
-### Room Search and Booking
-- **GET** `/hotels/search` – Search for available rooms
-- **POST** `/bookings` – Book a hotel room
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
