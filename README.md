@@ -1,6 +1,6 @@
 **Hotel Booking Application**
 <br>
-Features
+**Features**
 <br>
 User Management: Secure authentication and authorization mechanisms to protect user accounts.
 <br>
@@ -10,7 +10,7 @@ Search and Filter: Functionality to search and filter available hotel rooms base
 <br>
 Room Booking: Users can reserve available rooms, with the system managing availability and bookings.
 <br>
-Technologies Used
+**Technologies Used**
 <br>
 Backend: Spring Boot framework for building the application.
 <br>
